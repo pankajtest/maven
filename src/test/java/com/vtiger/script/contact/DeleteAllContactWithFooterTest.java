@@ -28,7 +28,9 @@ public class DeleteAllContactWithFooterTest extends BaseClass{
 		bu.alertAccept();
 		System.out.println("hello");
 		
+		System.out.println("hello world updated by supriyo");
 		
+		 
 		
 	}
 
