@@ -32,9 +32,6 @@ public class DeleteAllContactWithHeaderTest extends BaseClass{
 		/* Click on Pop up & Accept It*/
 		BrowserUtility bu = PageFactory.initElements(driver, BrowserUtility.class);
 		bu.alertAccept();
-	
-	System.out.println("for conflict");
-	
 	}
 
 }

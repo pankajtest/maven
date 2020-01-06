@@ -27,10 +27,10 @@ public class DeleteAllContactWithFooterTest extends BaseClass{
 		BrowserUtility bu = PageFactory.initElements(driver, BrowserUtility.class);
 		bu.alertAccept();
 		System.out.println("hello");
+		System.out.println("hjdfguhdfsfffgjhhffh");
 		
 		System.out.println("hello world updated by supriyo");
 		
-		 
 		
 	}
 
