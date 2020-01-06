@@ -31,6 +31,7 @@ public class DeleteAllContactWithFooterTest extends BaseClass{
 		
 		System.out.println("hello world updated by supriyo");
 		System.out.println("hi pankaj modified my test");
+		System.out.println("rtyui87u");
 		
 		
 	}
