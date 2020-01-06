@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.script.contact.WithoutSelectingDeleteContactTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="deleteContactWithActionAndClickOnCancelTest"/>
+        </methods>
+      </class> <!-- com.vtiger.script.contact.WithoutSelectingDeleteContactTest -->
+      <class name="com.vtiger.script.contact.DeleteContactWithActionAndClickOnCancelTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="deleteContactWithActionAndClickOnCancelTest"/>
+        </methods>
+      </class> <!-- com.vtiger.script.contact.DeleteContactWithActionAndClickOnCancelTest -->
+      <class name="com.vtiger.script.contact.DeleteAllContactWithHeaderTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="deleteAllContactWithHeaderTest"/>
+        </methods>
+      </class> <!-- com.vtiger.script.contact.DeleteAllContactWithHeaderTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
